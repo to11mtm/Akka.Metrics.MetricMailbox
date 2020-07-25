@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Metrics.MetricMailbox", "Akka.Metrics.MetricMailbox\Akka.Metrics.MetricMailbox.csproj", "{A6230B25-AABA-4495-BA3D-53C689DF869E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Metrics.MetricMailbox.Tests", "Akka.Metrics.MetricMailbox.Tests\Akka.Metrics.MetricMailbox.Tests.csproj", "{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
