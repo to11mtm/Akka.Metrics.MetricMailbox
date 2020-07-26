@@ -1,5 +1,5 @@
 # Akka.Metrics.MetricMailbox
-A Metrics Measuring Mailbox For Akka.NET
+A Metrics Measuring Mailbox For Akka.NET, inspired by / ported from the JVM Akka's https://github.com/ouven/akka-visualmailbox
 
 ### About
 The `MetricMeasuringMailbox` is a wrapper around an `UnboundedMailbox` that will send `MailboxMetric` events to the EventStream for every message sent to an actor using the mailbox.
