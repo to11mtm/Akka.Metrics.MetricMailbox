@@ -1,0 +1,21 @@
+<Project>
+    <PropertyGroup>
+        <AssemblyVersion>0.9.00</AssemblyVersion>
+        <FileVersion>0.9.00</FileVersion>
+        <Version>0.9.00</Version>
+        <Authors>Gluten Free Solutions</Authors>
+        <Description>Part of the GlutenFree.Akka.MetricMailbox Package</Description>
+        <Copyright>Copyright 2020, Gluten Free Solutions</Copyright>
+        <PackageProjectUrl>https://github.com/to11mtm/GlutenFree.Akka.Metrics.MetricMailbox</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/to11mtm/GlutenFree.Akka.Metrics.MetricMailbox/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/to11mtm/GlutenFree.Akka.Metrics.MetricMailbox</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>akka metrics</PackageTags>
+        <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PackageOutputPath>$(SolutionDir)\packedNuget</PackageOutputPath>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlutenFree.Akka.Metrics.MetricMailbox", "GlutenFree.Akka.Metrics.MetricMailbox\GlutenFree.Akka.Metrics.MetricMailbox.csproj", "{A6230B25-AABA-4495-BA3D-53C689DF869E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlutenFree.Akka.Metrics.MetricMailbox.Tests", "GlutenFree.Akka.Metrics.MetricMailbox.Tests\GlutenFree.Akka.Metrics.MetricMailbox.Tests.csproj", "{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{E1F25C79-3E06-4DEF-AD94-7171BA8963BB}"
+ProjectSection(SolutionItems) = preProject
+	..\README.md = ..\README.md
+	Directory.Build.Props = Directory.Build.Props
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlutenFree.Akka.Metrics.MetricMailbox.RedisPubSub", "GlutenFree.Akka.Metrics.MetricMailbox.RedisPubSub\GlutenFree.Akka.Metrics.MetricMailbox.RedisPubSub.csproj", "{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlutenFree.Akka.Metrics.MetricMailbox.VisualizerExample", "GlutenFree.Akka.Metrics.MetricMailbox.VisualizerExample\GlutenFree.Akka.Metrics.MetricMailbox.VisualizerExample.csproj", "{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6230B25-AABA-4495-BA3D-53C689DF869E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
