@@ -21,7 +21,7 @@ namespace Akka.Metrics.MetricMailbox
             var metric = new MailboxMetric(
                 envelope.Sender.Path.ToSerializationFormat(),
                 receiver.Path.ToSerializationFormat(), _backend.Count,
-                DateTime.UtcNow.Ticks);
+                DateTime.UtcNow.Ticks/TimeSpan.TicksPerMillisecond );
             _system.EventStream.Publish(metric);
             _backend.Enqueue(receiver,envelope);
         }

@@ -9,6 +9,10 @@ ProjectSection(SolutionItems) = preProject
 	..\README.md = ..\README.md
 EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Metrics.MetricMailbox.RedisPubSubListener", "Akka.Metrics.MetricMailbox.RedisPubSubListener\Akka.Metrics.MetricMailbox.RedisPubSubListener.csproj", "{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,5 +27,13 @@ Global
 		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778B40D7-9F25-45EE-A3D0-CDC390C5DFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B23BFC3-DABB-4DB0-8994-6C3D8C98F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CC3DB-B094-4BFF-AC47-3E36BB9959D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
