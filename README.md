@@ -22,10 +22,10 @@ To use the Metric Mailbox, you will need to do the following:
 
  - Ensure that a Mailbox Configuration is provided in the ActorSystem Configuration:
    - Default configuration/declaration is provided in the `MetricMailboxConfig` class in both String and `Config` object form.
-   - An Extension Method are provided to inject the Default configuration via `config.WithDefaultMetricMailbox()`
+   - An Extension Method is provided to inject the Default configuration via `config.WithDefaultMetricMailbox()`
  - For Actors that you wish to track metrics for, include the mailbox in your props:
    - Example: `Props.Create(()=>new MyActor()).WithMailbox("metric-mailbox")`
-   - An Extension Method is provided to use the Default Metric Mailbox: `Props.Create(()=>new MyActor()).WithDefaultMetricMailbox()`
+   - An Extension Method to use the default configured box is provided for your convenience: `Props.Create(()=>new MyActor()).WithDefaultMetricMailbox()`
 
 You may then utilize the Metrics via one of the following options:
   - Create your own actor that subscribes to `MailboxMetric` messages on the EventStream
