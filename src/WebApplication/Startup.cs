@@ -72,6 +72,33 @@ namespace WebApplication
             _actorSystem.Scheduler.ScheduleTellOnce(
                 TimeSpan.FromSeconds(0.1), echoRef,
                 new Echo(), otherEchoRef);
+            /*_actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);
+            _actorSystem.Scheduler.ScheduleTellOnce(
+                TimeSpan.FromSeconds(0.1), echoRef,
+                new Echo(), otherEchoRef);*/
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

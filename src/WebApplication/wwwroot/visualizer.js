@@ -31,7 +31,7 @@
                 this.update({
                     'id': edge.id,
                     'value': pEdge.value + 1,
-                    'label': pEdge.value + 1
+                    'label': (Number(pEdge.value) + 1).toString()
                 });
             }
             return this;
@@ -54,7 +54,7 @@
         return {
             'id': nodeId(data.receiver),
             'title': nodeId(data.receiver),
-            'label': data.receiverMailBoxSize,
+            'label': data.receiverMailBoxSize.toString(),
             'value': data.receiverMailBoxSize
         }
     }
@@ -65,7 +65,7 @@
             'from': nodeFrom.id,
             'to': nodeTo.id,
             'value': 1,
-            'label': 1
+            'label': (1).toString()
         }
     }
 
